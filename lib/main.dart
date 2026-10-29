@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             ),
             Icon(
               Icons.camera_alt,
-              color: Colors.pink,
+              color: Colors.green,
               size: 28,
             ),
             Icon(
