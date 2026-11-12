@@ -2,7 +2,6 @@ import 'package:app1/sepha.dart';
 import 'package:flutter/material.dart';
 
 
-import 'business_card_app.dart';
 void main () { runApp(MyApp ()) ;
 
 }
