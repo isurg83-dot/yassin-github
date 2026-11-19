@@ -27,8 +27,8 @@ class Basketball extends StatelessWidget {
         children: [
           CustomButton(text: '+2 point'),
           CustomButton(text: '+3 point'),
-          CustomButton(text: 'reset'),
-          CustomButton(text: 'foul'),
+          CustomButton(text: 'Reset'),
+          CustomButton(text: 'Foul'),
         ],
       ),
     );
