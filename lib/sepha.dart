@@ -25,13 +25,13 @@ class Sepha extends StatelessWidget {
 
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.brown,
+                backgroundColor: Colors.yellow,
               ),
               onPressed: () {}, 
               child: Text(
                 "Elevated Button",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black87,
                 ),
               ),
             ),
