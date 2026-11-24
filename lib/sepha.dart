@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
-class Sepha extends StatelessWidget {
+class Sepha extends StatefulWidget {
   const Sepha({super.key});
 
   @override
+  State<Sepha> createState() => _SephaState();
+}
+
+class _SephaState extends State<Sepha> {
+ int counter=0;
+   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.brown,
@@ -16,22 +22,30 @@ class Sepha extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Sepha',
+              "اللهم صل وسلم وبارك علي نبينا محمد",
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.white,
+              ),
+            ),
+             Text(
+              "$counter",
               style: TextStyle(
                 fontSize: 25,
                 color: Colors.white,
               ),
             ),
 
+
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.brown,
+                backgroundColor: Colors.yellow,
               ),
               onPressed: () {}, 
               child: Text(
                 "Elevated Button",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black87,
                 ),
               ),
             ),
